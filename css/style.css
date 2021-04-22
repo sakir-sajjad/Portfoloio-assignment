@@ -152,7 +152,7 @@ a{
 
 .about-me{
   width: 100%;
-  margin: 80px 0;
+  padding: 80px 0;
 }
 
 .hding{
@@ -239,7 +239,7 @@ a{
 
 .abt-btn input{
   background-color: transparent;
-  color: #198754;
+  color: #198754 !important;
   border: 1px solid #198754;
   border-radius: 5px;
   padding: 8px 20px;
@@ -251,7 +251,7 @@ a{
 .abt-btn input:hover{
   background-color: #198754;
   border: 1px solid #198754;
-  color: #ffffff;
+  color: #ffffff !important;
   transition: 0.4s ease-in-out;
 }
 
@@ -262,7 +262,7 @@ a{
 
 .suggestion{
   width: 100%;
-  height: 60%;
+  /* height: 60%; */
   padding: 60px 0;
   background-image: url("../imgs/bg1.png");
   background-position: center;
@@ -507,7 +507,7 @@ a{
 
 .testimonial{
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-image: url("../imgs/testimonial-bg.png");
   background-position: center;
   background-size: cover;
@@ -515,7 +515,7 @@ a{
   padding: 60px 0;
 }
 
-.owl-carousel .owl-item img {
+.owl-carousel .item img {
   /* display: block; */
   width: auto;
   margin: auto;
@@ -584,6 +584,10 @@ a{
   font-weight: 600;
 }
 
+input{
+  color: #ffffff !important;
+}
+
 .in-area{
   width: 100%;
   border: 1px solid #ffffff;
@@ -599,6 +603,11 @@ a{
   border-radius: 2px;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
+}
+
+.in-btn:hover{
+  background-color: #ffb233;
+  border: 1px solid #ffb233;
 }
 
 .in-area:focus{
