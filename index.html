@@ -10,6 +10,7 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
 
     <!-- Fontawesome -->
@@ -21,6 +22,7 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
 
     <title>Portfolio</title>
   </head>
@@ -139,25 +141,25 @@
                 <div class="bg1-icon">
                   <ul>
                     <li>
-                      <div class="lst-div">
+                      <div class="lst-div mx-auto">
                         <a href=""><i class="fas fa-desktop"></i></a>
                         <h6>Web</h6>
                       </div>
                     </li>
                     <li>
-                      <div class="lst-div">
+                      <div class="lst-div mx-auto">
                         <a href=""><i class="fas fa-palette"></i></a>
                         <h6>Graphic Design</h6>
                       </div>
                     </li>
                     <li>
-                      <div class="lst-div">
+                      <div class="lst-div mx-auto">
                         <a href=""><i class="fas fa-cube"></i></a>
                         <h6>Branding</h6>
                       </div>
                     </li>
                     <li>
-                      <div class="lst-div">
+                      <div class="lst-div mx-auto">
                         <a href=""><i class="fab fa-angular"></i></a>
                         <h6>Typography</h6>
                       </div>
@@ -373,7 +375,7 @@
             <div class="owl-carousel owl-theme">
               <div class="item">
                 <div class="comnt text-center">
-                  <p class="my-5 px-5 quote">
+                  <p class="my-5 quote">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab, eos cumque aspernatur nesciunt impedit, quam assumenda aliquid, saepe corporis ducimus illum temporibus eum qui. Voluptate consequatur temporibus, pariatur possimus, quia quod ex rerum aperiam, laudantium esse at tempora nobis. Magni saepe consequuntur, modi voluptas nihil aperiam id fugit et?
                   </p>
                   <img src="imgs/c1.png" class="img-fluid mt-4" alt="">
@@ -383,7 +385,7 @@
               </div>
               <div class="item">
                 <div class="comnt text-center">
-                  <p class="my-5 px-5 quote">
+                  <p class="my-5 quote">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab, eos cumque aspernatur nesciunt impedit, quam assumenda aliquid, saepe corporis ducimus illum temporibus eum qui. Voluptate consequatur temporibus, pariatur possimus, quia quod ex rerum aperiam, laudantium esse at tempora nobis. Magni saepe consequuntur, modi voluptas nihil aperiam id fugit et?
                   </p>
                   <img src="imgs/c2.png" class="img-fluid mt-4" alt="">
@@ -393,7 +395,7 @@
               </div>
               <div class="item">
                 <div class="comnt text-center">
-                  <p class="my-5 px-5 quote">
+                  <p class="my-5 quote">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab, eos cumque aspernatur nesciunt impedit, quam assumenda aliquid, saepe corporis ducimus illum temporibus eum qui. Voluptate consequatur temporibus, pariatur possimus, quia quod ex rerum aperiam, laudantium esse at tempora nobis. Magni saepe consequuntur, modi voluptas nihil aperiam id fugit et?
                   </p>
                   <img src="imgs/c3.png" class="img-fluid mt-4" alt="">
@@ -403,7 +405,7 @@
               </div>
               <div class="item">
                 <div class="comnt text-center">
-                  <p class="my-5 px-5 quote">
+                  <p class="my-5 quote">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab, eos cumque aspernatur nesciunt impedit, quam assumenda aliquid, saepe corporis ducimus illum temporibus eum qui. Voluptate consequatur temporibus, pariatur possimus, quia quod ex rerum aperiam, laudantium esse at tempora nobis. Magni saepe consequuntur, modi voluptas nihil aperiam id fugit et?
                   </p>
                   <img src="imgs/c4.png" class="img-fluid mt-4" alt="">
@@ -413,7 +415,7 @@
               </div>
               <div class="item">
                 <div class="comnt text-center">
-                  <p class="my-5 px-5 quote">
+                  <p class="my-5 quote">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab, eos cumque aspernatur nesciunt impedit, quam assumenda aliquid, saepe corporis ducimus illum temporibus eum qui. Voluptate consequatur temporibus, pariatur possimus, quia quod ex rerum aperiam, laudantium esse at tempora nobis. Magni saepe consequuntur, modi voluptas nihil aperiam id fugit et?
                   </p>
                   <img src="imgs/c5.png" class="img-fluid mt-4" alt="">
@@ -462,10 +464,10 @@
           <form action="" class="my-5">
               <div class="row mt-5">
                 <div class="col-md-2"></div>
-                <div class="col-md-4 col-12">
+                <div class="col-md-4 col-12 mt-4">
                   <input type="text" placeholder="Name" class="p-2 text-white in-area">
                 </div>
-                <div class="col-md-4 col-12">
+                <div class="col-md-4 col-12 mt-4">
                   <input type="text" placeholder="Phone" class="p-2 text-white in-area">
                 </div>
                 <div class="col-md-2"></div>
@@ -539,6 +541,24 @@
           }
         })
       })
+
+
+      // var owl = $('.owl-carousel');
+      // owl.owlCarousel({
+      //     items:1,
+      //     loop:true,
+      //     margin:10,
+      //     autoplay:true,
+      //     autoplayTimeout:3000,
+      //     autoplayHoverPause:true
+      // });
+      // $('.play').on('click',function(){
+      //     owl.trigger('play.owl.autoplay',[3000])
+      // })
+      // $('.stop').on('click',function(){
+      //     owl.trigger('stop.owl.autoplay')
+      // })
+
 
     </script>
    
